@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue"
+       name="Qualitrix Suite" parallel="tests">
+    <listeners>
+        <listener class-name="com.qualitrix.testng.listener.AlterSuiteListener" />
+        <listener class-name="com.qualitrix.testng.listener.AnnotationTransformer" />
+        <listener class-name="com.qualitrix.testng.listener.ListenerTest" />
+    </listeners>
+    <test name="Test" preserve-order="true">
+        <classes>
+            <!--<class name="com.qualitrrix.test.Sprint_1" />-->
+            <class name="com.qualitrrix.test.Sprint_2" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,11 @@
+{
+  "properties": {
+    "reportName": "Qualitrix Automation Report"
+  },
+  "capabilities": [
+    {
+      "browserVersion": "80",
+      "browserName": "chrome"
+    }
+  ]
+}
